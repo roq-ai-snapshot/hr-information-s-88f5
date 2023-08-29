@@ -1,0 +1,2252 @@
+[
+  {
+    "vacation": [
+      {
+        "id": "81425b3d-51f7-4eb0-bb4a-3e2957e6879e",
+        "start_date": "2023-08-29T02:40:13.737Z",
+        "end_date": "2023-08-29T02:48:16.027Z",
+        "status": "Approved",
+        "days_taken": 65411,
+        "created_at": "2023-08-28T13:45:26.353Z",
+        "updated_at": "2023-08-29T00:51:13.590Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "659a3d93-7515-4991-a054-09209daf42ee",
+        "start_date": "2023-08-29T10:00:43.956Z",
+        "end_date": "2023-08-29T01:30:20.198Z",
+        "status": "Pending",
+        "days_taken": 68660,
+        "created_at": "2023-08-29T10:07:22.967Z",
+        "updated_at": "2023-08-29T09:39:11.974Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "cc388559-6216-4c2e-a9b0-b7f8995ca701",
+        "start_date": "2023-08-28T21:31:45.890Z",
+        "end_date": "2023-08-28T23:01:00.742Z",
+        "status": "Cancelled",
+        "days_taken": 20198,
+        "created_at": "2023-08-28T14:48:20.679Z",
+        "updated_at": "2023-08-28T14:25:14.153Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "bf07afc3-a445-42ea-9b53-8d2e3a2aeaf4",
+        "start_date": "2023-08-29T12:43:40.036Z",
+        "end_date": "2023-08-29T01:20:54.001Z",
+        "status": "Scheduled",
+        "days_taken": 69345,
+        "created_at": "2023-08-29T06:14:09.629Z",
+        "updated_at": "2023-08-29T05:18:29.085Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "928b1454-1c71-4483-b517-70fe55aa6e61",
+        "start_date": "2023-08-28T17:08:53.714Z",
+        "end_date": "2023-08-29T03:51:56.211Z",
+        "status": "Rejected",
+        "days_taken": 67923,
+        "created_at": "2023-08-28T18:47:05.903Z",
+        "updated_at": "2023-08-29T01:20:36.903Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "payroll": [
+      {
+        "id": "abe30b7a-8b01-4bdc-bd81-b0d27ae1a14f",
+        "payment_date": "2023-08-29T10:23:14.692Z",
+        "amount": 8413,
+        "payment_method": "Direct Deposit",
+        "status": "Paid",
+        "created_at": "2023-08-29T10:47:28.897Z",
+        "updated_at": "2023-08-29T05:45:22.591Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0fc30e16-c1c6-4cff-be2c-521d34f8fac8",
+        "payment_date": "2023-08-29T00:57:42.318Z",
+        "amount": 8987,
+        "payment_method": "Check",
+        "status": "Pending",
+        "created_at": "2023-08-28T14:07:07.177Z",
+        "updated_at": "2023-08-28T15:02:27.116Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8aa23f52-cfe0-49ba-833c-9d88adf06a7e",
+        "payment_date": "2023-08-29T07:39:00.729Z",
+        "amount": 68208,
+        "payment_method": "PayPal",
+        "status": "Cancelled",
+        "created_at": "2023-08-29T02:39:54.700Z",
+        "updated_at": "2023-08-29T05:26:23.106Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9ea7ea78-2131-4434-aaf6-3e11d8402985",
+        "payment_date": "2023-08-29T00:17:21.815Z",
+        "amount": 85962,
+        "payment_method": "Wire Transfer",
+        "status": "Processing",
+        "created_at": "2023-08-29T12:07:21.920Z",
+        "updated_at": "2023-08-28T13:21:58.236Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6befe996-8496-4319-b01e-9346698c375a",
+        "payment_date": "2023-08-29T09:47:48.358Z",
+        "amount": 74513,
+        "payment_method": "Cash",
+        "status": "Delayed",
+        "created_at": "2023-08-29T10:03:01.981Z",
+        "updated_at": "2023-08-28T19:50:42.121Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "employee": [
+      {
+        "id": "40ff1249-9a7f-4fbf-aa09-eb7109340b74",
+        "hire_date": "2023-08-29T08:45:12.864Z",
+        "position": "Manager",
+        "salary": 8494,
+        "department": "IT",
+        "status": "Active",
+        "created_at": "2023-08-28T19:33:36.128Z",
+        "updated_at": "2023-08-28T21:28:36.366Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5125f322-5bb6-4e56-a1b1-c974d3b538a8",
+        "hire_date": "2023-08-28T18:08:13.206Z",
+        "position": "Engineer",
+        "salary": 30897,
+        "department": "Marketing",
+        "status": "Inactive",
+        "created_at": "2023-08-29T10:54:50.886Z",
+        "updated_at": "2023-08-28T19:53:07.777Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "30d99140-12f6-4a53-8aaf-b0370868b1ba",
+        "hire_date": "2023-08-29T01:06:12.204Z",
+        "position": "Sales Representative",
+        "salary": 57411,
+        "department": "Finance",
+        "status": "On Leave",
+        "created_at": "2023-08-29T09:05:28.994Z",
+        "updated_at": "2023-08-28T22:55:41.185Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fcc954a3-46b9-4b7e-8ed2-de0bd578e506",
+        "hire_date": "2023-08-29T12:48:01.541Z",
+        "position": "Accountant",
+        "salary": 22589,
+        "department": "Operations",
+        "status": "Terminated",
+        "created_at": "2023-08-28T17:52:22.682Z",
+        "updated_at": "2023-08-29T00:01:35.087Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2c2b7758-427a-48ce-8127-46ad7c3431d2",
+        "hire_date": "2023-08-29T11:46:16.612Z",
+        "position": "HR Specialist",
+        "salary": 28979,
+        "department": "Human Resources",
+        "status": "Retired",
+        "created_at": "2023-08-29T10:02:54.764Z",
+        "updated_at": "2023-08-29T09:37:10.904Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "407c2cf9-3a97-4678-8395-03e52d10e7bb",
+        "email": "Sonny.Schneider35@yahoo.com",
+        "firstName": "Kayden",
+        "lastName": "Morar",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/167.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "bd72da14-150e-4336-9fcf-1fccf13267bd",
+        "email": "Destin.Gislason@yahoo.com",
+        "firstName": "Janessa",
+        "lastName": "Collier",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/675.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "72edb0f0-0b71-400a-a70f-7d8a4884e4c0",
+        "email": "Luella6@gmail.com",
+        "firstName": "Ernie",
+        "lastName": "Schamberger-Powlowski",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1181.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "4009a5e8-b66b-42fd-8185-6d2a2c566886",
+        "email": "Bethel.Turner-Bayer14@hotmail.com",
+        "firstName": "Conner",
+        "lastName": "Boyer",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/71.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "e7cc438b-51bd-4ec3-b4aa-b4c6a1e7b662",
+        "email": "Magnolia.Pollich@gmail.com",
+        "firstName": "Emie",
+        "lastName": "Spencer",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/132.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "vacation": [
+      {
+        "id": "f328dc6f-d14a-4900-80b4-764e0acad281",
+        "start_date": "2023-08-29T01:46:24.408Z",
+        "end_date": "2023-08-29T06:16:09.160Z",
+        "status": "Approved",
+        "days_taken": 15319,
+        "created_at": "2023-08-29T05:11:22.093Z",
+        "updated_at": "2023-08-29T04:46:06.375Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a918054a-3df9-4a0f-9ba5-7c062c2cc940",
+        "start_date": "2023-08-28T15:55:03.063Z",
+        "end_date": "2023-08-28T22:42:40.218Z",
+        "status": "Pending",
+        "days_taken": 91480,
+        "created_at": "2023-08-28T13:09:40.796Z",
+        "updated_at": "2023-08-29T05:41:47.897Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fe0a1c06-3961-45dc-a3f8-ef74f41b7260",
+        "start_date": "2023-08-29T00:42:51.064Z",
+        "end_date": "2023-08-29T04:18:11.687Z",
+        "status": "Cancelled",
+        "days_taken": 43383,
+        "created_at": "2023-08-29T10:35:36.955Z",
+        "updated_at": "2023-08-29T12:41:41.504Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e60339ef-e787-4d89-9b9e-90cd2645fab7",
+        "start_date": "2023-08-29T09:15:58.411Z",
+        "end_date": "2023-08-28T15:12:00.039Z",
+        "status": "Scheduled",
+        "days_taken": 44365,
+        "created_at": "2023-08-28T16:26:26.905Z",
+        "updated_at": "2023-08-29T09:25:51.751Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "da5eac8e-3535-4df2-a274-03fc7ba28fa8",
+        "start_date": "2023-08-29T10:49:43.730Z",
+        "end_date": "2023-08-28T20:14:28.955Z",
+        "status": "Denied",
+        "days_taken": 83616,
+        "created_at": "2023-08-28T23:02:02.095Z",
+        "updated_at": "2023-08-29T10:14:13.658Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "payroll": [
+      {
+        "id": "90d6e480-246d-4fc8-907d-d3d676deb6cf",
+        "payment_date": "2023-08-29T08:14:21.207Z",
+        "amount": 8498,
+        "payment_method": "Direct Deposit",
+        "status": "Paid",
+        "created_at": "2023-08-29T12:31:46.213Z",
+        "updated_at": "2023-08-29T04:06:11.970Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e69862e0-782d-49fd-8ce8-2cee851f09ec",
+        "payment_date": "2023-08-28T16:08:32.045Z",
+        "amount": 86357,
+        "payment_method": "Check",
+        "status": "Pending",
+        "created_at": "2023-08-29T06:00:07.591Z",
+        "updated_at": "2023-08-29T07:22:49.777Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e01fd2a3-eaa6-44b2-bafe-26db4635421f",
+        "payment_date": "2023-08-29T08:40:27.012Z",
+        "amount": 31671,
+        "payment_method": "PayPal",
+        "status": "Cancelled",
+        "created_at": "2023-08-29T11:30:51.317Z",
+        "updated_at": "2023-08-29T01:10:37.107Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "33a1d630-93f4-462a-875c-0b11c3668521",
+        "payment_date": "2023-08-28T18:00:23.906Z",
+        "amount": 17477,
+        "payment_method": "Venmo",
+        "status": "Processing",
+        "created_at": "2023-08-29T12:22:57.593Z",
+        "updated_at": "2023-08-29T08:16:41.821Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "33dd075b-73b0-4d3d-8e3b-392dffd4efb0",
+        "payment_date": "2023-08-29T04:22:37.523Z",
+        "amount": 51888,
+        "payment_method": "Wire Transfer",
+        "status": "Delayed",
+        "created_at": "2023-08-28T18:12:29.330Z",
+        "updated_at": "2023-08-28T17:18:02.241Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "employee": [
+      {
+        "id": "89136cde-6c5f-439f-b523-25e7bafe27e0",
+        "hire_date": "2023-08-29T10:49:38.377Z",
+        "position": "Manager",
+        "salary": 66282,
+        "department": "Sales",
+        "status": "Active",
+        "created_at": "2023-08-29T03:58:29.424Z",
+        "updated_at": "2023-08-28T22:34:39.298Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b89a487e-a137-439d-a6f7-9298bd105e7d",
+        "hire_date": "2023-08-28T20:46:21.252Z",
+        "position": "Engineer",
+        "salary": 81301,
+        "department": "Engineering",
+        "status": "Inactive",
+        "created_at": "2023-08-29T03:10:58.398Z",
+        "updated_at": "2023-08-29T03:48:06.601Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1a3c2aa2-fd8c-4e7c-8d51-b7c2055eb9e1",
+        "hire_date": "2023-08-29T00:16:54.784Z",
+        "position": "Sales Representative",
+        "salary": 81784,
+        "department": "Marketing",
+        "status": "On Leave",
+        "created_at": "2023-08-28T16:26:50.764Z",
+        "updated_at": "2023-08-28T13:46:46.600Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5df5b11d-fe68-4c8b-90f9-ef8025df23f8",
+        "hire_date": "2023-08-29T07:57:03.347Z",
+        "position": "HR Specialist",
+        "salary": 71374,
+        "department": "Human Resources",
+        "status": "Terminated",
+        "created_at": "2023-08-28T19:39:49.379Z",
+        "updated_at": "2023-08-28T16:06:39.385Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "572c9a4c-12d2-493f-86f6-13f9454bf68c",
+        "hire_date": "2023-08-28T17:33:08.826Z",
+        "position": "Accountant",
+        "salary": 41573,
+        "department": "Finance",
+        "status": "Retired",
+        "created_at": "2023-08-28T17:35:50.110Z",
+        "updated_at": "2023-08-29T00:10:10.627Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "728770ad-3065-43b7-8420-e44d29b55324",
+        "email": "Maybell_Pacocha53@hotmail.com",
+        "firstName": "Jacynthe",
+        "lastName": "Johns",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/2579372",
+        "tenantId": null
+      },
+      {
+        "reference": "5f606244-3cf3-474c-acca-87e68f519340",
+        "email": "Selina.Gorczany-Sanford33@hotmail.com",
+        "firstName": "Tyree",
+        "lastName": "Cormier-Becker",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1042.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "8e45a339-f1c3-45b9-93f9-76a861308d9a",
+        "email": "Lempi_Bailey34@yahoo.com",
+        "firstName": "Friedrich",
+        "lastName": "Beatty",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/259.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "adf5ad79-35bc-45b6-b0a3-537a586714de",
+        "email": "Baby_Murphy73@gmail.com",
+        "firstName": "Demetris",
+        "lastName": "Schaefer",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/340.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "fc816dfb-dea6-4a71-9e87-e6f6b90db938",
+        "email": "Carmela_OConner@hotmail.com",
+        "firstName": "Nathan",
+        "lastName": "Sipes",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1018.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "vacation": [
+      {
+        "id": "18d3e3c2-c0f9-45fe-b8b6-3d37ab58ad2f",
+        "start_date": "2023-08-29T02:23:42.655Z",
+        "end_date": "2023-08-29T02:40:44.717Z",
+        "status": "Approved",
+        "days_taken": 68613,
+        "created_at": "2023-08-28T22:31:20.687Z",
+        "updated_at": "2023-08-28T15:46:07.614Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7eec26e7-133a-4cbd-815e-64ea82954324",
+        "start_date": "2023-08-29T11:45:07.422Z",
+        "end_date": "2023-08-29T10:11:38.702Z",
+        "status": "Pending",
+        "days_taken": 27206,
+        "created_at": "2023-08-28T23:57:10.969Z",
+        "updated_at": "2023-08-28T18:47:08.110Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f901980f-063e-4f8a-a12f-f3858e077b7c",
+        "start_date": "2023-08-28T19:47:52.246Z",
+        "end_date": "2023-08-28T21:23:00.520Z",
+        "status": "Cancelled",
+        "days_taken": 64578,
+        "created_at": "2023-08-29T03:07:05.389Z",
+        "updated_at": "2023-08-29T09:44:58.274Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c4126a48-e434-48c3-8b48-076224f5c890",
+        "start_date": "2023-08-29T01:58:43.829Z",
+        "end_date": "2023-08-28T17:02:29.830Z",
+        "status": "Rejected",
+        "days_taken": 41050,
+        "created_at": "2023-08-28T21:14:07.315Z",
+        "updated_at": "2023-08-29T08:45:03.799Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "07cbf518-4000-4b2e-968f-330b36fb1185",
+        "start_date": "2023-08-28T13:15:24.211Z",
+        "end_date": "2023-08-29T05:24:31.530Z",
+        "status": "Scheduled",
+        "days_taken": 82988,
+        "created_at": "2023-08-29T00:35:54.446Z",
+        "updated_at": "2023-08-29T02:32:55.910Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "payroll": [
+      {
+        "id": "b8ac03fe-0b37-4c78-b84f-0cffc9c9bf97",
+        "payment_date": "2023-08-28T13:26:25.492Z",
+        "amount": 74607,
+        "payment_method": "Direct Deposit",
+        "status": "Paid",
+        "created_at": "2023-08-29T08:16:28.489Z",
+        "updated_at": "2023-08-29T11:32:04.588Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7e4c278f-64b9-488c-a26b-2da90ddb9668",
+        "payment_date": "2023-08-29T09:56:47.745Z",
+        "amount": 30015,
+        "payment_method": "Check",
+        "status": "Pending",
+        "created_at": "2023-08-29T00:49:48.753Z",
+        "updated_at": "2023-08-28T14:26:39.197Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "372d11cd-b00f-40a0-ade3-e0c93b43f111",
+        "payment_date": "2023-08-28T22:24:14.040Z",
+        "amount": 55649,
+        "payment_method": "PayPal",
+        "status": "Overdue",
+        "created_at": "2023-08-29T09:21:45.551Z",
+        "updated_at": "2023-08-29T02:55:54.430Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "665c9407-0134-4d5f-a9b2-3d257cc14a01",
+        "payment_date": "2023-08-28T17:05:09.571Z",
+        "amount": 17818,
+        "payment_method": "Wire Transfer",
+        "status": "Cancelled",
+        "created_at": "2023-08-28T20:15:23.751Z",
+        "updated_at": "2023-08-29T04:18:57.571Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b1ce417f-d2b6-4140-99d4-96fbb16e38a3",
+        "payment_date": "2023-08-28T18:11:45.687Z",
+        "amount": 88916,
+        "payment_method": "Cash",
+        "status": "Processing",
+        "created_at": "2023-08-28T16:44:05.922Z",
+        "updated_at": "2023-08-28T19:48:15.710Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "employee": [
+      {
+        "id": "b7cca4ae-e349-428e-bd68-38965f0b4500",
+        "hire_date": "2023-08-29T10:46:49.910Z",
+        "position": "Manager",
+        "salary": 99709,
+        "department": "Finance",
+        "status": "Active",
+        "created_at": "2023-08-29T08:57:09.451Z",
+        "updated_at": "2023-08-28T23:12:42.207Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9e752f04-7986-4fc5-8148-3123e14a2845",
+        "hire_date": "2023-08-29T00:03:01.452Z",
+        "position": "Engineer",
+        "salary": 9700,
+        "department": "Human Resources",
+        "status": "Inactive",
+        "created_at": "2023-08-29T00:37:58.616Z",
+        "updated_at": "2023-08-28T20:12:20.581Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "056f324f-b30a-44cc-a740-0dcfd834f377",
+        "hire_date": "2023-08-28T22:14:02.191Z",
+        "position": "Sales Representative",
+        "salary": 47061,
+        "department": "Marketing",
+        "status": "On Leave",
+        "created_at": "2023-08-28T22:23:18.362Z",
+        "updated_at": "2023-08-28T21:44:42.122Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e9e90f3b-7f72-46ba-b139-e204e924de42",
+        "hire_date": "2023-08-28T14:14:42.704Z",
+        "position": "Accountant",
+        "salary": 77625,
+        "department": "Operations",
+        "status": "Terminated",
+        "created_at": "2023-08-28T20:45:37.845Z",
+        "updated_at": "2023-08-28T18:33:12.832Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "da8853c7-c154-415f-9a74-90eed4ca1777",
+        "hire_date": "2023-08-28T16:11:19.808Z",
+        "position": "Administrative Assistant",
+        "salary": 80953,
+        "department": "Sales",
+        "status": "Probation",
+        "created_at": "2023-08-29T08:38:18.224Z",
+        "updated_at": "2023-08-29T11:25:26.020Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "5798a1d1-8b3d-40b6-ba15-da64810c02d8",
+        "email": "Jason3@hotmail.com",
+        "firstName": "Marian",
+        "lastName": "Gulgowski",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/86071904",
+        "tenantId": null
+      },
+      {
+        "reference": "8333648e-4726-4a91-8ccc-21681fd0ee50",
+        "email": "Irma_Daugherty44@gmail.com",
+        "firstName": "Wanda",
+        "lastName": "Dibbert",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/38343203",
+        "tenantId": null
+      },
+      {
+        "reference": "df990579-de1f-459e-97fe-8fb5add4749f",
+        "email": "Alexandra.Goyette@gmail.com",
+        "firstName": "Taryn",
+        "lastName": "Hessel",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/43555380",
+        "tenantId": null
+      },
+      {
+        "reference": "acc689bb-5ca8-490d-8b63-33985699ebfb",
+        "email": "Corrine77@gmail.com",
+        "firstName": "Alford",
+        "lastName": "Kerluke",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/18262463",
+        "tenantId": null
+      },
+      {
+        "reference": "e5c9a3c5-1837-46e1-a26a-2cb1787c572b",
+        "email": "Paris.Schinner@gmail.com",
+        "firstName": "Randy",
+        "lastName": "Dooley",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/98586765",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "vacation": [
+      {
+        "id": "1b761fc0-95e4-46ba-874b-1d6c253e546c",
+        "start_date": "2023-08-29T03:31:41.406Z",
+        "end_date": "2023-08-28T23:54:38.593Z",
+        "status": "Approved",
+        "days_taken": 78584,
+        "created_at": "2023-08-29T02:11:10.001Z",
+        "updated_at": "2023-08-29T12:02:56.297Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "99c60561-4d41-42a7-a58e-8758fe53fe02",
+        "start_date": "2023-08-28T13:42:08.109Z",
+        "end_date": "2023-08-29T08:51:17.844Z",
+        "status": "Pending",
+        "days_taken": 35857,
+        "created_at": "2023-08-28T19:45:40.108Z",
+        "updated_at": "2023-08-28T13:38:51.210Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b298021c-fe64-4874-9be6-9e7b0816feac",
+        "start_date": "2023-08-28T22:22:28.548Z",
+        "end_date": "2023-08-29T07:07:49.823Z",
+        "status": "Rejected",
+        "days_taken": 61629,
+        "created_at": "2023-08-28T21:23:00.269Z",
+        "updated_at": "2023-08-29T02:31:12.469Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "cbc269cf-b9ab-42ac-9008-26c6fbf0c600",
+        "start_date": "2023-08-29T03:10:13.158Z",
+        "end_date": "2023-08-28T16:23:42.034Z",
+        "status": "Cancelled",
+        "days_taken": 7769,
+        "created_at": "2023-08-28T18:12:40.629Z",
+        "updated_at": "2023-08-29T11:58:37.874Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8e01deb6-0afb-4c1b-a76e-6a7b63e1935f",
+        "start_date": "2023-08-29T07:49:32.398Z",
+        "end_date": "2023-08-29T00:37:15.753Z",
+        "status": "Scheduled",
+        "days_taken": 71151,
+        "created_at": "2023-08-29T04:45:16.859Z",
+        "updated_at": "2023-08-29T02:50:53.943Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "payroll": [
+      {
+        "id": "57ff464e-4c4b-4a8b-8af1-6df281bbd698",
+        "payment_date": "2023-08-28T20:24:32.370Z",
+        "amount": 65995,
+        "payment_method": "Direct Deposit",
+        "status": "Paid",
+        "created_at": "2023-08-29T08:52:52.515Z",
+        "updated_at": "2023-08-28T21:42:57.218Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "350ccdca-ed5f-46af-b51d-b6381cb26f20",
+        "payment_date": "2023-08-28T23:06:30.899Z",
+        "amount": 36857,
+        "payment_method": "Paper Check",
+        "status": "Pending",
+        "created_at": "2023-08-29T08:12:39.121Z",
+        "updated_at": "2023-08-28T21:16:45.336Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "033632e3-d3bd-42aa-8c8e-1991f13e0455",
+        "payment_date": "2023-08-29T03:36:40.109Z",
+        "amount": 38296,
+        "payment_method": "PayPal",
+        "status": "Cancelled",
+        "created_at": "2023-08-28T15:03:34.258Z",
+        "updated_at": "2023-08-28T22:43:16.454Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3638efb1-98d3-4407-80bf-6bd7c470f7d7",
+        "payment_date": "2023-08-28T20:38:09.416Z",
+        "amount": 45218,
+        "payment_method": "Venmo",
+        "status": "Overdue",
+        "created_at": "2023-08-29T01:08:05.433Z",
+        "updated_at": "2023-08-28T22:21:31.246Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2fb1c2b5-eac3-4ae8-8964-6a5ce1142dce",
+        "payment_date": "2023-08-29T03:54:19.315Z",
+        "amount": 19346,
+        "payment_method": "Cash",
+        "status": "Processed",
+        "created_at": "2023-08-28T18:42:37.307Z",
+        "updated_at": "2023-08-29T09:28:57.741Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "employee": [
+      {
+        "id": "19e8e5da-98a6-465f-ab8d-887eedf9c74b",
+        "hire_date": "2023-08-29T12:31:16.577Z",
+        "position": "Manager",
+        "salary": 1327,
+        "department": "Sales",
+        "status": "Active",
+        "created_at": "2023-08-29T11:04:16.507Z",
+        "updated_at": "2023-08-28T16:37:54.713Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a4289efc-9857-48f8-9ab3-0adc23a09fa5",
+        "hire_date": "2023-08-29T07:52:07.650Z",
+        "position": "Engineer",
+        "salary": 31006,
+        "department": "Marketing",
+        "status": "On Leave",
+        "created_at": "2023-08-28T22:37:45.505Z",
+        "updated_at": "2023-08-29T04:20:31.794Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c63d2f22-c07f-45a5-bae4-f0e54997894c",
+        "hire_date": "2023-08-29T11:59:28.006Z",
+        "position": "Sales Representative",
+        "salary": 52413,
+        "department": "Finance",
+        "status": "Terminated",
+        "created_at": "2023-08-28T22:59:43.479Z",
+        "updated_at": "2023-08-28T23:13:42.433Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "cdad48f0-f8cc-41a5-97e9-8fa35acd3103",
+        "hire_date": "2023-08-28T19:38:33.140Z",
+        "position": "Accountant",
+        "salary": 79709,
+        "department": "Operations",
+        "status": "Suspended",
+        "created_at": "2023-08-28T21:39:06.798Z",
+        "updated_at": "2023-08-29T12:45:18.021Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "938010ef-3a46-4255-bfd9-952e15d5246a",
+        "hire_date": "2023-08-29T08:54:01.174Z",
+        "position": "HR Specialist",
+        "salary": 28616,
+        "department": "Human Resources",
+        "status": "Retired",
+        "created_at": "2023-08-28T18:19:52.725Z",
+        "updated_at": "2023-08-29T05:17:27.547Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "10733e57-a1f5-4a64-a6a6-282efd159e60",
+        "email": "Annette_Lind@yahoo.com",
+        "firstName": "Berneice",
+        "lastName": "Huel",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1132.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "322d3fc2-3102-4d5f-8ed3-f39a3130c5e2",
+        "email": "Syble_Bernier96@gmail.com",
+        "firstName": "Name",
+        "lastName": "Medhurst",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/98273573",
+        "tenantId": null
+      },
+      {
+        "reference": "b4bbc4f0-05f7-4406-8646-fe3f6539a9ad",
+        "email": "Marquis31@yahoo.com",
+        "firstName": "Aurelio",
+        "lastName": "Tromp",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/93854687",
+        "tenantId": null
+      },
+      {
+        "reference": "0f9ce915-b507-4965-a7f3-d941c417af3a",
+        "email": "Ayden65@yahoo.com",
+        "firstName": "Forrest",
+        "lastName": "Marvin",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1038.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "3483c5fd-7e2f-4acb-824e-05f9d41cce31",
+        "email": "Dillon_Wilkinson48@yahoo.com",
+        "firstName": "Jackeline",
+        "lastName": "Glover",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/260.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "vacation": [
+      {
+        "id": "b66c97ee-e20e-40db-a1b1-552cfcba5c77",
+        "start_date": "2023-08-28T23:09:34.774Z",
+        "end_date": "2023-08-28T18:54:41.151Z",
+        "status": "Approved",
+        "days_taken": 55302,
+        "created_at": "2023-08-28T17:46:27.652Z",
+        "updated_at": "2023-08-28T18:44:20.497Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b2328697-5949-4908-bdde-974e89d23755",
+        "start_date": "2023-08-28T20:28:12.366Z",
+        "end_date": "2023-08-29T08:10:47.612Z",
+        "status": "Pending",
+        "days_taken": 82233,
+        "created_at": "2023-08-29T12:42:34.708Z",
+        "updated_at": "2023-08-29T04:02:06.572Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6e4e1334-1bef-4a39-82e8-d48193ea7f87",
+        "start_date": "2023-08-28T15:46:24.532Z",
+        "end_date": "2023-08-29T09:13:05.321Z",
+        "status": "Cancelled",
+        "days_taken": 1084,
+        "created_at": "2023-08-28T16:27:49.618Z",
+        "updated_at": "2023-08-29T03:36:29.286Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "15fcff18-bb6b-46a8-a512-4807b15e0e95",
+        "start_date": "2023-08-29T01:32:28.081Z",
+        "end_date": "2023-08-29T02:22:40.903Z",
+        "status": "Rejected",
+        "days_taken": 55183,
+        "created_at": "2023-08-28T23:58:25.957Z",
+        "updated_at": "2023-08-29T04:38:12.798Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d6de0a4b-364a-4a9a-9a54-8b589e7cd620",
+        "start_date": "2023-08-29T09:49:11.354Z",
+        "end_date": "2023-08-28T13:19:47.700Z",
+        "status": "Scheduled",
+        "days_taken": 76423,
+        "created_at": "2023-08-29T06:55:50.185Z",
+        "updated_at": "2023-08-29T00:06:22.333Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "payroll": [
+      {
+        "id": "261acd6a-b0f3-4cae-9073-e16ee369c844",
+        "payment_date": "2023-08-28T17:35:19.905Z",
+        "amount": 56655,
+        "payment_method": "Direct Deposit",
+        "status": "Paid",
+        "created_at": "2023-08-29T05:50:32.040Z",
+        "updated_at": "2023-08-29T04:20:31.344Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "35496019-eae8-427e-aa60-206b1907300d",
+        "payment_date": "2023-08-28T15:31:00.870Z",
+        "amount": 81018,
+        "payment_method": "Check",
+        "status": "Pending",
+        "created_at": "2023-08-29T07:31:30.764Z",
+        "updated_at": "2023-08-29T06:51:10.324Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d948b9a5-88d4-46d6-bcf0-efa6e3b52438",
+        "payment_date": "2023-08-29T03:05:15.077Z",
+        "amount": 36419,
+        "payment_method": "PayPal",
+        "status": "Cancelled",
+        "created_at": "2023-08-28T17:46:36.731Z",
+        "updated_at": "2023-08-29T06:53:38.347Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c525452f-a9fe-4a55-b788-27224cea7dc4",
+        "payment_date": "2023-08-28T14:50:57.454Z",
+        "amount": 72398,
+        "payment_method": "Venmo",
+        "status": "Processing",
+        "created_at": "2023-08-28T23:51:05.562Z",
+        "updated_at": "2023-08-28T13:17:36.974Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2dc00cc9-2b99-4cad-b8a7-e861c07bbf19",
+        "payment_date": "2023-08-29T07:35:10.613Z",
+        "amount": 30668,
+        "payment_method": "Wire Transfer",
+        "status": "On Hold",
+        "created_at": "2023-08-29T07:54:17.549Z",
+        "updated_at": "2023-08-28T13:41:10.824Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "employee": [
+      {
+        "id": "1d48aa81-fdfe-4a63-916c-3a2f16f48dad",
+        "hire_date": "2023-08-29T11:32:23.502Z",
+        "position": "Manager",
+        "salary": 8807,
+        "department": "Human Resources",
+        "status": "Active",
+        "created_at": "2023-08-29T10:39:32.068Z",
+        "updated_at": "2023-08-29T05:00:31.130Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "608a08a8-8588-4a49-8219-9fc43cfe56c5",
+        "hire_date": "2023-08-28T23:53:44.970Z",
+        "position": "Engineer",
+        "salary": 48492,
+        "department": "Engineering",
+        "status": "On Leave",
+        "created_at": "2023-08-28T13:51:49.079Z",
+        "updated_at": "2023-08-29T12:38:31.247Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d7ef30d6-180f-402d-8941-cd37b499986b",
+        "hire_date": "2023-08-29T04:07:59.739Z",
+        "position": "Sales Representative",
+        "salary": 52208,
+        "department": "Sales",
+        "status": "Terminated",
+        "created_at": "2023-08-29T09:50:24.931Z",
+        "updated_at": "2023-08-29T13:02:22.150Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7c71fc01-7bc3-45ed-afb0-f6cc829b1bad",
+        "hire_date": "2023-08-28T20:02:56.206Z",
+        "position": "Designer",
+        "salary": 16655,
+        "department": "Marketing",
+        "status": "Suspended",
+        "created_at": "2023-08-29T12:45:46.696Z",
+        "updated_at": "2023-08-28T22:58:59.382Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7ac4ae02-02f7-4b4c-b3ce-b4d1adc11758",
+        "hire_date": "2023-08-29T03:01:17.754Z",
+        "position": "Accountant",
+        "salary": 1700,
+        "department": "Finance",
+        "status": "Retired",
+        "created_at": "2023-08-28T21:19:44.570Z",
+        "updated_at": "2023-08-28T23:02:58.638Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "e7b3a4d7-5bd3-4a4c-a74f-ca3a7b94d266",
+        "email": "Orrin_Gleason@gmail.com",
+        "firstName": "Wyatt",
+        "lastName": "Gerlach-Terry",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/397.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "19783075-9256-4bf5-a031-28eed3d9d7cf",
+        "email": "Gabriel31@gmail.com",
+        "firstName": "Colten",
+        "lastName": "Herzog",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/811.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "13c3cd13-2e21-406d-a002-950fb543d91b",
+        "email": "Enola.Kuphal@yahoo.com",
+        "firstName": "Cassie",
+        "lastName": "Conn",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/21.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "2a9b20e4-f421-4af9-95b5-b71305d0011e",
+        "email": "Keaton.Steuber@gmail.com",
+        "firstName": "Kayley",
+        "lastName": "Medhurst",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/58126578",
+        "tenantId": null
+      },
+      {
+        "reference": "13907d62-24f5-4c72-8747-91635ba2a69e",
+        "email": "Winnifred.Balistreri@yahoo.com",
+        "firstName": "Brody",
+        "lastName": "Will",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/185.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "vacation": [
+      {
+        "id": "b794f5fc-0b50-4f2c-aaf0-9909545a8457",
+        "start_date": "2023-08-28T19:30:32.115Z",
+        "end_date": "2023-08-29T10:32:34.101Z",
+        "status": "Approved",
+        "days_taken": 95494,
+        "created_at": "2023-08-28T23:06:21.075Z",
+        "updated_at": "2023-08-28T22:39:51.530Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fbbe0174-56ef-4615-9d8b-aec3a81d6f3a",
+        "start_date": "2023-08-28T21:26:59.885Z",
+        "end_date": "2023-08-29T12:08:15.325Z",
+        "status": "Pending",
+        "days_taken": 12369,
+        "created_at": "2023-08-28T21:49:55.820Z",
+        "updated_at": "2023-08-29T09:17:38.896Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4c9086fe-bd00-449c-9d9d-2741d18f4c57",
+        "start_date": "2023-08-29T01:13:04.476Z",
+        "end_date": "2023-08-28T16:06:21.078Z",
+        "status": "Cancelled",
+        "days_taken": 15565,
+        "created_at": "2023-08-29T05:25:31.736Z",
+        "updated_at": "2023-08-28T21:40:58.162Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1cd57be1-7774-4036-84a7-ae50862476a0",
+        "start_date": "2023-08-29T09:27:42.124Z",
+        "end_date": "2023-08-29T04:11:36.942Z",
+        "status": "Scheduled",
+        "days_taken": 75133,
+        "created_at": "2023-08-28T23:40:31.500Z",
+        "updated_at": "2023-08-29T12:42:44.518Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8556120f-7682-4405-963d-26b0606dbd17",
+        "start_date": "2023-08-29T01:00:57.843Z",
+        "end_date": "2023-08-28T19:49:19.327Z",
+        "status": "Denied",
+        "days_taken": 2292,
+        "created_at": "2023-08-29T10:11:41.817Z",
+        "updated_at": "2023-08-28T17:28:08.606Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "payroll": [
+      {
+        "id": "12b2bbe2-0f47-4177-8f81-258964d92b2e",
+        "payment_date": "2023-08-29T05:29:28.648Z",
+        "amount": 76883,
+        "payment_method": "Direct Deposit",
+        "status": "Paid",
+        "created_at": "2023-08-29T08:38:26.350Z",
+        "updated_at": "2023-08-29T04:39:46.325Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "059101af-9598-4cb6-a70f-b5cd7e64e5ec",
+        "payment_date": "2023-08-29T01:46:23.008Z",
+        "amount": 48206,
+        "payment_method": "Check",
+        "status": "Pending",
+        "created_at": "2023-08-29T09:52:37.712Z",
+        "updated_at": "2023-08-29T03:34:22.289Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e2045111-6c84-438f-830c-c957a4ac2a6f",
+        "payment_date": "2023-08-29T06:29:58.075Z",
+        "amount": 74195,
+        "payment_method": "PayPal",
+        "status": "Cancelled",
+        "created_at": "2023-08-29T02:08:13.480Z",
+        "updated_at": "2023-08-28T23:22:52.886Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9c1719da-737b-4c68-bb44-520fa79fe74c",
+        "payment_date": "2023-08-28T19:06:34.447Z",
+        "amount": 32026,
+        "payment_method": "Venmo",
+        "status": "Processing",
+        "created_at": "2023-08-28T23:27:42.525Z",
+        "updated_at": "2023-08-29T04:18:36.365Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b9273556-a6ed-418b-9123-a0d86cec3f96",
+        "payment_date": "2023-08-29T07:19:35.968Z",
+        "amount": 20483,
+        "payment_method": "Wire Transfer",
+        "status": "Delayed",
+        "created_at": "2023-08-29T06:35:22.404Z",
+        "updated_at": "2023-08-29T10:52:27.588Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "employee": [
+      {
+        "id": "7bf18a44-b5e6-4baa-9f3d-5556f11d6a81",
+        "hire_date": "2023-08-29T05:35:16.509Z",
+        "position": "Manager",
+        "salary": 54504,
+        "department": "Marketing",
+        "status": "Active",
+        "created_at": "2023-08-29T06:58:51.505Z",
+        "updated_at": "2023-08-28T18:42:15.389Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ec6694af-234c-4913-addf-5a6375c76510",
+        "hire_date": "2023-08-29T12:49:34.149Z",
+        "position": "Engineer",
+        "salary": 91849,
+        "department": "Finance",
+        "status": "Inactive",
+        "created_at": "2023-08-28T23:59:33.229Z",
+        "updated_at": "2023-08-29T10:23:18.553Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c8b5b37d-0d0e-4f50-a76e-05f2ca5df8dd",
+        "hire_date": "2023-08-28T13:38:06.272Z",
+        "position": "Sales Associate",
+        "salary": 89167,
+        "department": "Human Resources",
+        "status": "On Leave",
+        "created_at": "2023-08-29T12:16:03.864Z",
+        "updated_at": "2023-08-29T10:29:25.278Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3696a2a9-a357-45f8-9e86-039db18c071f",
+        "hire_date": "2023-08-28T17:21:20.403Z",
+        "position": "Analyst",
+        "salary": 2685,
+        "department": "Operations",
+        "status": "Terminated",
+        "created_at": "2023-08-28T17:45:34.035Z",
+        "updated_at": "2023-08-29T10:11:51.915Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "bbbf38f5-db7e-43e7-9907-54499c99f226",
+        "hire_date": "2023-08-29T08:03:18.779Z",
+        "position": "Supervisor",
+        "salary": 77320,
+        "department": "IT",
+        "status": "Suspended",
+        "created_at": "2023-08-29T08:39:35.931Z",
+        "updated_at": "2023-08-29T03:03:38.462Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "5d953f88-83b5-4e60-b7d9-1b18c76885fe",
+        "email": "Bernardo_Pagac80@gmail.com",
+        "firstName": "Maud",
+        "lastName": "Mills",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/554.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "1b591201-d2dc-4b42-afef-3f648ff9cfd3",
+        "email": "Annabelle_Rowe@yahoo.com",
+        "firstName": "Hulda",
+        "lastName": "Collins",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1249.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "d35b6675-89f7-4bb6-83a3-c3c690ce7255",
+        "email": "Zena78@hotmail.com",
+        "firstName": "Scarlett",
+        "lastName": "Koss",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/659.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "4771fad3-3d7c-4cc3-9a6c-23eed83968b0",
+        "email": "Garland.Schultz@gmail.com",
+        "firstName": "Shad",
+        "lastName": "Grant",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/25729066",
+        "tenantId": null
+      },
+      {
+        "reference": "8c34f3a4-28d0-4ab3-93b4-01d2ab41ff0a",
+        "email": "Judson.Brown76@hotmail.com",
+        "firstName": "Charles",
+        "lastName": "O'Kon",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/63790",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "vacation": [
+      {
+        "id": "c18cd4f8-a20c-4b83-811d-0426250a5256",
+        "start_date": "2023-08-28T15:43:25.439Z",
+        "end_date": "2023-08-29T04:26:02.979Z",
+        "status": "Approved",
+        "days_taken": 20263,
+        "created_at": "2023-08-28T16:47:29.687Z",
+        "updated_at": "2023-08-28T19:47:05.452Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4ac6d6f8-aa7c-447b-9378-56b933d976ba",
+        "start_date": "2023-08-28T15:38:29.182Z",
+        "end_date": "2023-08-28T18:26:40.723Z",
+        "status": "Pending",
+        "days_taken": 97043,
+        "created_at": "2023-08-28T19:36:14.533Z",
+        "updated_at": "2023-08-29T11:10:47.556Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2c21a6f7-c074-4543-a3a2-e27a89212227",
+        "start_date": "2023-08-29T03:52:45.857Z",
+        "end_date": "2023-08-29T08:42:40.726Z",
+        "status": "Cancelled",
+        "days_taken": 42458,
+        "created_at": "2023-08-29T01:55:29.107Z",
+        "updated_at": "2023-08-28T20:06:26.738Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1d4b0d45-14bc-4a8e-bc35-eadfb1258af3",
+        "start_date": "2023-08-29T04:12:10.503Z",
+        "end_date": "2023-08-28T23:06:00.652Z",
+        "status": "Scheduled",
+        "days_taken": 41558,
+        "created_at": "2023-08-29T05:48:04.290Z",
+        "updated_at": "2023-08-29T09:51:07.227Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "02cf7693-7c91-4fbf-901b-7f3db477c2d7",
+        "start_date": "2023-08-28T20:47:17.393Z",
+        "end_date": "2023-08-28T22:05:55.535Z",
+        "status": "Denied",
+        "days_taken": 30676,
+        "created_at": "2023-08-28T16:05:47.758Z",
+        "updated_at": "2023-08-29T05:00:11.037Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "payroll": [
+      {
+        "id": "96de4fc1-389e-4ead-a94d-521241d2c401",
+        "payment_date": "2023-08-29T04:49:09.052Z",
+        "amount": 10237,
+        "payment_method": "Direct Deposit",
+        "status": "Paid",
+        "created_at": "2023-08-28T22:31:28.216Z",
+        "updated_at": "2023-08-29T10:52:24.902Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fdf0a53f-913b-4bba-911e-fb921bfd161d",
+        "payment_date": "2023-08-28T19:06:42.673Z",
+        "amount": 36387,
+        "payment_method": "Check",
+        "status": "Unpaid",
+        "created_at": "2023-08-28T20:08:21.817Z",
+        "updated_at": "2023-08-29T11:30:37.479Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0bc595a6-3a05-4bf5-bee6-f1f6ceda528c",
+        "payment_date": "2023-08-29T09:44:02.804Z",
+        "amount": 21607,
+        "payment_method": "PayPal",
+        "status": "Processing",
+        "created_at": "2023-08-29T06:40:24.643Z",
+        "updated_at": "2023-08-29T09:08:27.660Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8976dcaa-5636-451d-b414-f7e9d1287fd9",
+        "payment_date": "2023-08-29T00:16:50.346Z",
+        "amount": 97387,
+        "payment_method": "Venmo",
+        "status": "On Hold",
+        "created_at": "2023-08-28T23:39:45.982Z",
+        "updated_at": "2023-08-29T01:39:24.734Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ffafdca1-6ddc-46bc-930d-62765c6913d0",
+        "payment_date": "2023-08-29T02:10:24.329Z",
+        "amount": 24950,
+        "payment_method": "Wire Transfer",
+        "status": "Cancelled",
+        "created_at": "2023-08-29T06:28:51.093Z",
+        "updated_at": "2023-08-28T19:14:46.525Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "employee": [
+      {
+        "id": "c4b359b7-7170-4a47-ad0d-c1983b3ca11c",
+        "hire_date": "2023-08-29T07:14:02.419Z",
+        "position": "Manager",
+        "salary": 89018,
+        "department": "IT",
+        "status": "Active",
+        "created_at": "2023-08-28T13:17:40.962Z",
+        "updated_at": "2023-08-28T18:58:35.387Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8b2236f6-a355-4774-aff3-26b150ddbb86",
+        "hire_date": "2023-08-28T15:51:21.860Z",
+        "position": "Developer",
+        "salary": 95514,
+        "department": "Marketing",
+        "status": "Inactive",
+        "created_at": "2023-08-29T10:01:04.941Z",
+        "updated_at": "2023-08-28T15:53:49.390Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "449fe118-391b-4bbb-8c26-1fd1688995eb",
+        "hire_date": "2023-08-28T20:44:46.895Z",
+        "position": "Designer",
+        "salary": 18020,
+        "department": "Finance",
+        "status": "On Leave",
+        "created_at": "2023-08-28T20:54:08.366Z",
+        "updated_at": "2023-08-29T02:44:17.487Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c603ee34-eaa6-4c9b-995a-a347db2eb463",
+        "hire_date": "2023-08-28T19:18:50.893Z",
+        "position": "Accountant",
+        "salary": 73175,
+        "department": "Human Resources",
+        "status": "Terminated",
+        "created_at": "2023-08-28T23:15:02.809Z",
+        "updated_at": "2023-08-28T21:57:11.408Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9e9e7cc1-4b6a-4f57-82c7-1123faebafb2",
+        "hire_date": "2023-08-29T03:32:37.038Z",
+        "position": "Sales Representative",
+        "salary": 434,
+        "department": "Sales",
+        "status": "Suspended",
+        "created_at": "2023-08-29T12:14:20.088Z",
+        "updated_at": "2023-08-29T08:35:03.146Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "e63af481-d9e6-4dad-8f31-b68717229bb1",
+        "email": "Vita.Farrell62@yahoo.com",
+        "firstName": "Vallie",
+        "lastName": "Abbott",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/701.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "f46050f7-3218-45c8-848b-99ded38b9b52",
+        "email": "Bennie_Wiza@hotmail.com",
+        "firstName": "Alden",
+        "lastName": "Pfannerstill",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/52791337",
+        "tenantId": null
+      },
+      {
+        "reference": "e4358cd8-c459-4c60-a750-6518adccc668",
+        "email": "Luis22@hotmail.com",
+        "firstName": "Rosendo",
+        "lastName": "Lakin",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/42528628",
+        "tenantId": null
+      },
+      {
+        "reference": "75c61e64-1618-4e09-b69a-3d4d3dbfdbe0",
+        "email": "Holden9@yahoo.com",
+        "firstName": "Marie",
+        "lastName": "Prohaska",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1194.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "0d5566ab-e1bc-4b47-87da-6c822fc38bb1",
+        "email": "Shad17@hotmail.com",
+        "firstName": "Dawn",
+        "lastName": "Zboncak",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1014.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "vacation": [
+      {
+        "id": "2675a38d-1ba7-4ba1-bfe7-7f3b090e4ab6",
+        "start_date": "2023-08-29T12:16:43.671Z",
+        "end_date": "2023-08-29T05:17:50.597Z",
+        "status": "Approved",
+        "days_taken": 42923,
+        "created_at": "2023-08-29T01:33:27.634Z",
+        "updated_at": "2023-08-28T14:40:11.595Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ccfee1f9-8981-4bad-8c23-e201eed11a6d",
+        "start_date": "2023-08-28T17:33:09.244Z",
+        "end_date": "2023-08-29T06:25:24.326Z",
+        "status": "Pending",
+        "days_taken": 53208,
+        "created_at": "2023-08-29T01:14:02.193Z",
+        "updated_at": "2023-08-28T19:08:53.482Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "deb2d629-72f8-464f-8b2b-d2236d0cbc43",
+        "start_date": "2023-08-28T19:13:47.081Z",
+        "end_date": "2023-08-28T18:55:22.639Z",
+        "status": "Cancelled",
+        "days_taken": 43704,
+        "created_at": "2023-08-28T16:29:47.265Z",
+        "updated_at": "2023-08-29T08:59:41.756Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e7411459-caa3-4021-92b2-5b077fd676da",
+        "start_date": "2023-08-29T08:12:39.585Z",
+        "end_date": "2023-08-29T07:53:17.270Z",
+        "status": "Scheduled",
+        "days_taken": 87284,
+        "created_at": "2023-08-29T01:19:17.644Z",
+        "updated_at": "2023-08-29T08:03:54.287Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "042fa79b-5a5a-45e2-bef1-3f8de409294a",
+        "start_date": "2023-08-28T16:16:40.934Z",
+        "end_date": "2023-08-28T15:46:35.069Z",
+        "status": "Completed",
+        "days_taken": 21438,
+        "created_at": "2023-08-28T14:10:27.256Z",
+        "updated_at": "2023-08-28T16:39:42.764Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "payroll": [
+      {
+        "id": "e33eb584-51cf-4967-8dd8-14790cc469de",
+        "payment_date": "2023-08-29T01:45:34.952Z",
+        "amount": 37622,
+        "payment_method": "Direct Deposit",
+        "status": "Paid",
+        "created_at": "2023-08-28T15:42:49.934Z",
+        "updated_at": "2023-08-29T03:21:33.933Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5cdbe0d5-426f-4832-8060-55eb163f80db",
+        "payment_date": "2023-08-29T06:02:51.692Z",
+        "amount": 14607,
+        "payment_method": "Check",
+        "status": "Pending",
+        "created_at": "2023-08-28T19:59:36.617Z",
+        "updated_at": "2023-08-28T17:01:40.617Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "bc602621-8847-452a-b61a-003fd3277941",
+        "payment_date": "2023-08-28T16:25:19.323Z",
+        "amount": 35603,
+        "payment_method": "PayPal",
+        "status": "Cancelled",
+        "created_at": "2023-08-29T11:02:14.894Z",
+        "updated_at": "2023-08-28T22:33:43.198Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "427a54a2-214c-488a-8877-06a117ed51ba",
+        "payment_date": "2023-08-29T01:05:23.598Z",
+        "amount": 90793,
+        "payment_method": "Venmo",
+        "status": "Processing",
+        "created_at": "2023-08-29T06:19:39.476Z",
+        "updated_at": "2023-08-29T02:19:48.986Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "28882c16-e9c4-4ea1-8714-0152153d25db",
+        "payment_date": "2023-08-28T20:47:26.077Z",
+        "amount": 84796,
+        "payment_method": "Wire Transfer",
+        "status": "On Hold",
+        "created_at": "2023-08-28T19:35:42.033Z",
+        "updated_at": "2023-08-28T17:31:19.477Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "employee": [
+      {
+        "id": "eaa2239f-c3af-4bf2-bf04-34ef1e1fc363",
+        "hire_date": "2023-08-28T21:57:03.615Z",
+        "position": "Manager",
+        "salary": 40886,
+        "department": "IT",
+        "status": "Active",
+        "created_at": "2023-08-29T01:20:56.193Z",
+        "updated_at": "2023-08-29T12:23:55.249Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d38ec781-c3a8-4cca-8c5f-ecc3dc6b4f38",
+        "hire_date": "2023-08-28T22:25:32.492Z",
+        "position": "Developer",
+        "salary": 53025,
+        "department": "Marketing",
+        "status": "Inactive",
+        "created_at": "2023-08-29T01:38:43.777Z",
+        "updated_at": "2023-08-28T14:36:41.838Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b20bc872-c565-4624-8a54-9485ee279b0c",
+        "hire_date": "2023-08-28T13:50:56.459Z",
+        "position": "Sales Representative",
+        "salary": 22916,
+        "department": "Finance",
+        "status": "On Leave",
+        "created_at": "2023-08-28T23:55:48.609Z",
+        "updated_at": "2023-08-29T11:17:35.281Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a335690d-55f6-47dd-95e7-6a009b053f73",
+        "hire_date": "2023-08-29T00:40:57.148Z",
+        "position": "Accountant",
+        "salary": 90171,
+        "department": "Sales",
+        "status": "Terminated",
+        "created_at": "2023-08-29T04:20:53.384Z",
+        "updated_at": "2023-08-28T23:49:03.939Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9bcfcc5d-075b-4b0d-9a3e-b2257c72a68a",
+        "hire_date": "2023-08-29T08:39:17.013Z",
+        "position": "HR Specialist",
+        "salary": 86850,
+        "department": "Operations",
+        "status": "Suspended",
+        "created_at": "2023-08-28T15:34:04.579Z",
+        "updated_at": "2023-08-28T16:05:22.728Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "2d962ed1-2286-424f-9446-9da8f712ccf0",
+        "email": "Skye_Maggio@gmail.com",
+        "firstName": "Crystel",
+        "lastName": "Deckow",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/25933174",
+        "tenantId": null
+      },
+      {
+        "reference": "e23feb4e-6d8b-4d03-96ed-293284c45108",
+        "email": "Arne_Metz29@gmail.com",
+        "firstName": "Donavon",
+        "lastName": "Kunde",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/4477720",
+        "tenantId": null
+      },
+      {
+        "reference": "d7ba382a-9eca-4682-932e-9098c5e6248a",
+        "email": "Clint_Maggio@hotmail.com",
+        "firstName": "Adele",
+        "lastName": "Kohler",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/18256391",
+        "tenantId": null
+      },
+      {
+        "reference": "ec38407a-f9b2-44bb-9b6d-14dfe3ff3220",
+        "email": "Lloyd36@yahoo.com",
+        "firstName": "Kenyatta",
+        "lastName": "Lueilwitz",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/870.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "a39b376b-0c89-4816-af4c-a4f8db3bab00",
+        "email": "Willow_Donnelly@yahoo.com",
+        "firstName": "Veronica",
+        "lastName": "Willms",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/72289367",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "vacation": [
+      {
+        "id": "3111c2ad-9e80-49c3-ab85-a1005c3a09f9",
+        "start_date": "2023-08-28T14:42:31.886Z",
+        "end_date": "2023-08-29T07:21:18.712Z",
+        "status": "Approved",
+        "days_taken": 63633,
+        "created_at": "2023-08-29T02:11:41.625Z",
+        "updated_at": "2023-08-28T19:57:58.599Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a442b6f6-9fdc-4a88-aa26-2444e7ebaabf",
+        "start_date": "2023-08-29T10:31:04.309Z",
+        "end_date": "2023-08-29T04:28:33.516Z",
+        "status": "Pending",
+        "days_taken": 89910,
+        "created_at": "2023-08-29T12:17:17.351Z",
+        "updated_at": "2023-08-28T17:47:41.368Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4135be85-b479-47ba-bc35-0790b398ae0f",
+        "start_date": "2023-08-29T08:59:32.354Z",
+        "end_date": "2023-08-29T03:53:33.890Z",
+        "status": "Rejected",
+        "days_taken": 32208,
+        "created_at": "2023-08-29T06:54:37.501Z",
+        "updated_at": "2023-08-28T23:21:23.998Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d420b1d8-e88f-47a9-a44a-157fd88b43ad",
+        "start_date": "2023-08-29T10:00:53.842Z",
+        "end_date": "2023-08-28T14:24:49.818Z",
+        "status": "Cancelled",
+        "days_taken": 13260,
+        "created_at": "2023-08-29T02:02:01.763Z",
+        "updated_at": "2023-08-28T13:48:10.286Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8b4b58cd-e63c-4c5e-81f0-019e4c807953",
+        "start_date": "2023-08-28T17:54:50.450Z",
+        "end_date": "2023-08-29T05:24:40.854Z",
+        "status": "Scheduled",
+        "days_taken": 71972,
+        "created_at": "2023-08-29T00:56:09.926Z",
+        "updated_at": "2023-08-29T09:41:55.019Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "payroll": [
+      {
+        "id": "b695e9ee-aa29-43cc-bc73-e70d260e7605",
+        "payment_date": "2023-08-28T22:18:01.248Z",
+        "amount": 19676,
+        "payment_method": "Direct Deposit",
+        "status": "Paid",
+        "created_at": "2023-08-29T06:09:40.543Z",
+        "updated_at": "2023-08-29T09:00:51.048Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6c96fcdb-e66c-490e-b069-6e639505e0a1",
+        "payment_date": "2023-08-29T09:52:57.073Z",
+        "amount": 31154,
+        "payment_method": "Paper Check",
+        "status": "Pending",
+        "created_at": "2023-08-28T23:47:38.333Z",
+        "updated_at": "2023-08-29T03:39:30.831Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f33135fb-a34b-4c2e-bc31-de92b15024d6",
+        "payment_date": "2023-08-29T00:27:33.591Z",
+        "amount": 57374,
+        "payment_method": "PayPal",
+        "status": "Cancelled",
+        "created_at": "2023-08-28T18:40:35.284Z",
+        "updated_at": "2023-08-28T20:41:19.757Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "daee2d37-c577-4357-8852-b5032d29dfff",
+        "payment_date": "2023-08-28T19:43:50.404Z",
+        "amount": 82707,
+        "payment_method": "Venmo",
+        "status": "Processing",
+        "created_at": "2023-08-28T20:43:00.589Z",
+        "updated_at": "2023-08-28T15:56:30.796Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a95ef97d-bdfe-4b2a-a2df-7496616fce7f",
+        "payment_date": "2023-08-28T22:18:58.245Z",
+        "amount": 66810,
+        "payment_method": "Wire Transfer",
+        "status": "On Hold",
+        "created_at": "2023-08-29T11:12:57.149Z",
+        "updated_at": "2023-08-29T00:55:21.902Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "employee": [
+      {
+        "id": "c4220289-8e5a-4d07-b373-768b0b1b2459",
+        "hire_date": "2023-08-29T02:38:57.117Z",
+        "position": "Manager",
+        "salary": 98234,
+        "department": "Marketing",
+        "status": "Active",
+        "created_at": "2023-08-29T05:18:02.894Z",
+        "updated_at": "2023-08-29T02:51:42.886Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c1b26c09-3f56-43ac-995f-42c4e014a9c5",
+        "hire_date": "2023-08-29T05:45:37.052Z",
+        "position": "Engineer",
+        "salary": 5067,
+        "department": "Finance",
+        "status": "Inactive",
+        "created_at": "2023-08-29T06:10:18.541Z",
+        "updated_at": "2023-08-29T04:25:09.850Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "819fee8a-e6ba-4c83-9434-99d096f4e301",
+        "hire_date": "2023-08-28T23:10:40.280Z",
+        "position": "Sales Representative",
+        "salary": 24834,
+        "department": "Human Resources",
+        "status": "On Leave",
+        "created_at": "2023-08-28T21:05:06.132Z",
+        "updated_at": "2023-08-28T20:23:59.380Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f041dce8-c129-4488-89f9-eabc9a7576e1",
+        "hire_date": "2023-08-28T15:27:09.986Z",
+        "position": "Analyst",
+        "salary": 9780,
+        "department": "Operations",
+        "status": "Terminated",
+        "created_at": "2023-08-29T08:06:47.730Z",
+        "updated_at": "2023-08-28T20:18:46.807Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "084c9ab4-270d-492e-b9af-1b021b863b6a",
+        "hire_date": "2023-08-29T06:19:43.699Z",
+        "position": "Administrator",
+        "salary": 27124,
+        "department": "Information Technology",
+        "status": "Retired",
+        "created_at": "2023-08-29T03:54:41.097Z",
+        "updated_at": "2023-08-28T13:57:47.485Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "2ca1ff67-7748-4cf2-8625-3332dca4e2f5",
+        "email": "Myrtie_Osinski@yahoo.com",
+        "firstName": "Marcel",
+        "lastName": "Hansen",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/586.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "abc5ff6a-af3c-471a-b827-2bf40ce6f760",
+        "email": "Skye19@gmail.com",
+        "firstName": "Harold",
+        "lastName": "Mann",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/366.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "77d75ba4-8865-45cf-96ae-73ee03e0f233",
+        "email": "Gracie.Jaskolski@hotmail.com",
+        "firstName": "Skye",
+        "lastName": "Schmeler",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/37.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "ddc9c0b3-8d1d-4739-8b50-92fda1e2461f",
+        "email": "Billie_Runte@yahoo.com",
+        "firstName": "Marques",
+        "lastName": "Corwin",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/507.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "09a097e0-ca94-48e1-87cc-20c99fed1109",
+        "email": "Muhammad_West@hotmail.com",
+        "firstName": "Duane",
+        "lastName": "O'Kon",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/11783706",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "vacation": [
+      {
+        "id": "269367c6-d565-4ac0-a154-52d1823f22ff",
+        "start_date": "2023-08-29T03:20:32.673Z",
+        "end_date": "2023-08-28T17:35:38.550Z",
+        "status": "Approved",
+        "days_taken": 14758,
+        "created_at": "2023-08-28T15:54:07.045Z",
+        "updated_at": "2023-08-28T17:57:25.765Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f4af6a7f-b677-4416-9219-321597a82024",
+        "start_date": "2023-08-28T19:45:30.605Z",
+        "end_date": "2023-08-29T02:10:01.974Z",
+        "status": "Pending",
+        "days_taken": 9723,
+        "created_at": "2023-08-28T23:17:56.738Z",
+        "updated_at": "2023-08-28T22:47:52.612Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5c7d9b19-a145-4f5e-a3e2-0c22fa268258",
+        "start_date": "2023-08-29T05:42:53.578Z",
+        "end_date": "2023-08-29T03:58:11.488Z",
+        "status": "Cancelled",
+        "days_taken": 8801,
+        "created_at": "2023-08-29T05:07:55.545Z",
+        "updated_at": "2023-08-28T18:53:46.917Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d063119c-15a9-4f3c-9bae-e0211b75e799",
+        "start_date": "2023-08-28T23:36:40.015Z",
+        "end_date": "2023-08-28T17:41:53.956Z",
+        "status": "Scheduled",
+        "days_taken": 77348,
+        "created_at": "2023-08-28T19:07:37.964Z",
+        "updated_at": "2023-08-29T07:49:04.227Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "058f79bd-3cbf-4cb2-a79f-cce7bcbf0f9e",
+        "start_date": "2023-08-28T15:05:05.675Z",
+        "end_date": "2023-08-28T15:54:34.643Z",
+        "status": "Rejected",
+        "days_taken": 66684,
+        "created_at": "2023-08-28T21:25:22.924Z",
+        "updated_at": "2023-08-29T09:38:01.472Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "payroll": [
+      {
+        "id": "19f0ab18-489b-4040-ba5c-e0b4d2cdf05a",
+        "payment_date": "2023-08-29T11:47:50.964Z",
+        "amount": 42317,
+        "payment_method": "Direct Deposit",
+        "status": "Paid",
+        "created_at": "2023-08-28T18:31:46.035Z",
+        "updated_at": "2023-08-29T07:28:28.876Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1df4fb3f-2a02-445a-88e9-7b737cc48856",
+        "payment_date": "2023-08-29T09:37:13.460Z",
+        "amount": 316,
+        "payment_method": "Check",
+        "status": "Pending",
+        "created_at": "2023-08-29T03:36:15.960Z",
+        "updated_at": "2023-08-29T06:16:21.957Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "cf2d9562-bf0b-4874-a6bf-b468da7c0232",
+        "payment_date": "2023-08-28T14:22:38.983Z",
+        "amount": 37508,
+        "payment_method": "PayPal",
+        "status": "Cancelled",
+        "created_at": "2023-08-28T14:41:08.575Z",
+        "updated_at": "2023-08-29T02:47:22.026Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "bf71fa89-0b5a-426f-8afd-b75d77952e27",
+        "payment_date": "2023-08-29T10:33:05.297Z",
+        "amount": 58365,
+        "payment_method": "Wire Transfer",
+        "status": "Processing",
+        "created_at": "2023-08-29T04:23:11.151Z",
+        "updated_at": "2023-08-28T17:13:10.121Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4da7bceb-5dea-45ba-9c8f-1e84f48b32df",
+        "payment_date": "2023-08-29T12:39:06.355Z",
+        "amount": 10313,
+        "payment_method": "Venmo",
+        "status": "Overdue",
+        "created_at": "2023-08-29T06:54:49.479Z",
+        "updated_at": "2023-08-28T17:58:18.331Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "employee": [
+      {
+        "id": "afe442e5-c5a6-4581-a577-c8d3a1e6d882",
+        "hire_date": "2023-08-28T13:29:01.281Z",
+        "position": "Manager",
+        "salary": 60579,
+        "department": "IT",
+        "status": "Active",
+        "created_at": "2023-08-29T10:48:12.500Z",
+        "updated_at": "2023-08-28T22:22:31.542Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2a29e822-d778-4ae3-850f-21a4408bcc0f",
+        "hire_date": "2023-08-29T01:57:17.446Z",
+        "position": "Developer",
+        "salary": 36291,
+        "department": "Marketing",
+        "status": "On Leave",
+        "created_at": "2023-08-28T23:41:21.448Z",
+        "updated_at": "2023-08-29T12:37:03.131Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a47329b3-3cf3-4e09-a8e9-1a6023effd12",
+        "hire_date": "2023-08-29T05:55:37.547Z",
+        "position": "Designer",
+        "salary": 72543,
+        "department": "Finance",
+        "status": "Terminated",
+        "created_at": "2023-08-29T02:18:11.505Z",
+        "updated_at": "2023-08-29T11:14:41.277Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "88811361-6581-435d-a2bf-d493d825ce95",
+        "hire_date": "2023-08-28T15:26:45.211Z",
+        "position": "Sales Associate",
+        "salary": 17884,
+        "department": "Operations",
+        "status": "Suspended",
+        "created_at": "2023-08-28T20:18:10.512Z",
+        "updated_at": "2023-08-28T20:21:21.179Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "dfe7ef55-5b2a-45e0-bc35-c224fbdb671b",
+        "hire_date": "2023-08-28T18:06:45.878Z",
+        "position": "Human Resources",
+        "salary": 20578,
+        "department": "Sales",
+        "status": "Probation",
+        "created_at": "2023-08-28T21:25:21.906Z",
+        "updated_at": "2023-08-28T20:44:15.934Z",
+        "company_id": "main_entity_pk",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "02f212d6-ec20-4305-b75f-00f4b3e4b045",
+        "email": "Kaitlyn97@gmail.com",
+        "firstName": "Penelope",
+        "lastName": "Schmitt",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/28819783",
+        "tenantId": null
+      },
+      {
+        "reference": "fe1f5b4f-fa3b-4a17-815b-7d1689f526f8",
+        "email": "Juston41@yahoo.com",
+        "firstName": "Marlee",
+        "lastName": "Thompson",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/85792294",
+        "tenantId": null
+      },
+      {
+        "reference": "86eebff7-b568-45d8-bbe7-e9d59fdf21bd",
+        "email": "Sonya.Rau88@gmail.com",
+        "firstName": "Ethyl",
+        "lastName": "Gusikowski",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/783.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "4ed51047-7c70-4ec5-bd23-5b804033d7e3",
+        "email": "Alan_Reinger62@hotmail.com",
+        "firstName": "Eric",
+        "lastName": "Kuhic",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1103.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "7ea43ab6-ce27-48ca-ba1f-b6f9ac779e03",
+        "email": "Jalen_Kerluke@gmail.com",
+        "firstName": "Clint",
+        "lastName": "Kreiger",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/97376427",
+        "tenantId": null
+      }
+    ]
+  }
+]
